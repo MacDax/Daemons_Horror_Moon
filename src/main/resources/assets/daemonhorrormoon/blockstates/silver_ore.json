@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+      "": { "model": "daemonhorrormoon:block/silver_ore" }
+  }
+}

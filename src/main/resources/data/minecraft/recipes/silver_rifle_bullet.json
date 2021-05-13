@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GNN"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "N": {
+      "item": "daemonhorrormoon:silver_nugget"
+    }
+  },
+  "result": {
+    "item": "daemonhorrormoon:silver_rifle_bullet"
+  }
+}

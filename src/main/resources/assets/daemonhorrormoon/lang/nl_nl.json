@@ -1,0 +1,20 @@
+{
+  "item.daemonhorrormoon.wooden_stake": "Houten Staak",
+  "block.daemonhorrormoon.silver_block": "Zilverblok",
+  "block.daemonhorrormoon.silver_ore": "Zilvererts",
+  "item.daemonhorrormoon.silver_ingot": "Zilverstaaf",
+  "item.daemonhorrormoon.silver_nugget": "Zilverklomp",
+  "item.daemonhorrormoon.iron_pistol_bullet": "Pistool Kogel",
+  "item.daemonhorrormoon.silver_pistol_bullet": "Zilveren Pistool Kogel",
+  "item.daemonhorrormoon.iron_rifle_bullet": "Geweer Kogel",
+  "item.daemonhorrormoon.silver_rifle_bullet": "Zilveren Geweer Kogel",
+  "item.daemonhorrormoon.silver_cross": "Zilveren Kruis",
+  "item.daemonhorrormoon.magazine_desert_eagle": "Desert Eagle Magazijn",
+  "item.daemonhorrormoon.magazine_sp_r_208": "SP-R 208 Magazijn",
+  "item.daemonhorrormoon.magazine_ak47": "AK47 Magazijn",
+  "item.daemonhorrormoon.gun_desert_eagle": "Desert Eagle",
+  "item.daemonhorrormoon.gun_sp_r_208": "SP-R 208 Sniper Rifle",
+  "item.daemonhorrormoon.gun_ak47": "AK47 Assault Rifle",
+
+  "itemGroup.magic_items_group": "Magische Spullen"
+}
