@@ -15,6 +15,12 @@
   "item.daemonhorrormoon.gun_desert_eagle": "Desert Eagle",
   "item.daemonhorrormoon.gun_sp_r_208": "SP-R 208 Sniper Rifle",
   "item.daemonhorrormoon.gun_ak47": "AK47 Assault Rifle",
+  "item.daemonhorrormoon.silver_helmet": "Zilveren helm",
+  "item.daemonhorrormoon.silver_chestplate": "Zilveren kuras",
+  "item.daemonhorrormoon.silver_leggings": "Zilveren beenstukken",
+  "item.daemonhorrormoon.silver_boots": "Zilveren laarzen",
+  "item.daemonhorrormoon.silver_horse_armor": "Zilveren paarden harnas",
+  "tooltip.daemonhorrormoon.wooden_stake": "\u00A72Dit wapen kan alleen vampieren doden\u00A72",
 
   "itemGroup.magic_items_group": "Magische Spullen"
 }

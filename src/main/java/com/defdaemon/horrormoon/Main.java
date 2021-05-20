@@ -29,6 +29,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.function.Supplier;
 
+//TODO: Fit silver armor onto armor stand
+//TODO: Fix texture horse armor
+
 
 @Mod(Main.MOD_ID)
 @Mod.EventBusSubscriber(modid = Main.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -36,7 +39,7 @@ public class Main
 {
     public static Main instance;
     public static final String MOD_ID = "daemonhorrormoon";
-    public static final ItemGroup MAGIC_ITEMS_TAB = new Main.MagicItemsGroup("magic_items_group");
+    //public static final ItemGroup MAGIC_ITEMS_TAB = new Main.MagicItemsGroup("magic_items_group");
     public static final Logger LOGGER = LogManager.getLogger();
 
     public Main()

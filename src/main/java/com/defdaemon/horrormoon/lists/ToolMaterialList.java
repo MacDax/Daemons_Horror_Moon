@@ -1,18 +1,22 @@
 package com.defdaemon.horrormoon.lists;
 
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
+import java.util.function.Supplier;
 
 public enum ToolMaterialList implements IItemTier
 {
-    wooden_stake(1.0f,0.0f,1,0, 1000000, ItemList.WOODEN_STAKE.get());
+    //TODO: Check silver_cross values
+    silver_cross(1.0f, 0.0f, 1, 0, 100000, () -> Ingredient.of(ItemList.SILVER_INGOT.get()));
 
-    private float attackDamage, efficiency;
-    private int durability, harvestLevel, enchantability;
-    private Item repairMaterial;
+    private final float attackDamage;
+    private final float efficiency;
+    private final int durability;
+    private final int harvestLevel;
+    private final int enchantability;
+    private final Supplier<Ingredient> repairMaterial;
 
-    private ToolMaterialList(float attackDamage, float efficiency, int durability, int harvestLevel, int enchantability, Item repairMaterial)
+    private ToolMaterialList(float attackDamage, float efficiency, int durability, int harvestLevel, int enchantability, Supplier<Ingredient> repairMaterial)
     {
         this.attackDamage = attackDamage;
         this.efficiency = efficiency;
@@ -49,6 +53,6 @@ public enum ToolMaterialList implements IItemTier
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.of(this.repairMaterial);
+        return this.repairMaterial.get();
     }
 }

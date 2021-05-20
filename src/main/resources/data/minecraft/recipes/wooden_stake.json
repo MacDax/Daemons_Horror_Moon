@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  N",
+    " N ",
+    "N  "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "daemonhorrormoon:wooden_stake"
+  }
+}

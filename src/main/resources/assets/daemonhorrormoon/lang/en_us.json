@@ -15,6 +15,12 @@
   "item.daemonhorrormoon.gun_desert_eagle": "Desert Eagle",
   "item.daemonhorrormoon.gun_sp_r_208": "SP-R 208 Sniper Rifle",
   "item.daemonhorrormoon.gun_ak47": "AK47 Assault Rifle",
+  "item.daemonhorrormoon.silver_helmet": "Silver Helmet",
+  "item.daemonhorrormoon.silver_chestplate": "Silver Chestplate",
+  "item.daemonhorrormoon.silver_leggings": "Silver Leggings",
+  "item.daemonhorrormoon.silver_boots": "Silver Boots",
+  "item.daemonhorrormoon.silver_horse_armor": "Silver Horse Armor",
+  "tooltip.daemonhorrormoon.wooden_stake": "\u00A72This weapon only can kill vampires\u00A72",
 
   "itemGroup.magic_items_group": "Magic Items"
 }

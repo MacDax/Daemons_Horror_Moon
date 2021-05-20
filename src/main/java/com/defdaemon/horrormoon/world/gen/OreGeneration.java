@@ -18,7 +18,7 @@ public class OreGeneration
     {
         if(!(event.getCategory().equals(Biome.Category.THEEND)) && (!(event.getCategory().equals(Biome.Category.THEEND))))
         {
-            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.SILVER_ORE.get().defaultBlockState(), 5, 15, 50, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.SILVER_ORE.get().defaultBlockState(), 9, 15, 55, 10);
         }
     }
 
